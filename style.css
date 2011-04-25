@@ -1,0 +1,82 @@
+/* Coded by cooljaz124 (http://www.cooljaz124.com/) */ 
+
+html, body {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+
+body {
+    font: 12px 'Allerta' , Arial, sans-serif;
+    padding: 0;
+	background: url(images/bg.png) repeat;
+	text-shadow: 1px 1px 2px #1d1d1d;
+	color: #fff;
+	
+}
+
+body * {
+    line-height:1.22em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Allerta' , Arial, sans-serif;
+    color:#fff;
+    clear: both;
+	letter-spacing: -0.8px;
+	margin:0 0 5px 0;
+}
+
+#wrap {
+	width: 100%;
+}
+.main-content{
+	width: 960px;
+    margin:0 auto;
+	padding: 50px 0 0 0;
+}
+
+a {
+    color: #9ce5fa;
+	text-decoration: none;
+	outline: none;
+	/* CSS3 Transition Magic */
+	-webkit-transition: all .2s ease-out;
+	-moz-transition: all .2s ease-out;
+	-o-transition: all .2s ease-out;
+	transition: all .2s ease-out;
+}
+a:hover{
+	border-bottom: 1px dashed #9ce5fa;
+	text-shadow: 0 0;
+}
+.post-meta a{ font-size: 14px; }
+img:hover{ cursor: pointer; }
+li.jcarousel-item-horizontal{
+	position: relative;
+}
+.album-hover{
+	position: absolute;
+	top:0; left: 0;
+}
+.jcarousel-skin-tango{
+	margin: 90px 0 0 305px;
+}
+h1, .post-meta,.post-courtesy{ text-align: center; }
+span{ color: #fff; }
+.post-courtesy{
+	margin: 10px 0 0 0;
+	clear: both;
+}
+.post-courtesy span, .post-courtesy a{
+	letter-spacing: 0;
+}
+.post-c1{
+	border-top: 1px dashed #57595b;
+	width: 450px;
+	margin: 0 0 0 267px;
+	padding: 10px 0;
+}
+.fb-like,.tweet{ float: left;}
+.fb-like{ margin:0 0 0 10px; }
+.social{ margin: 100px 0 0 390px; overflow: hidden;}
